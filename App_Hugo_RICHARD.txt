@@ -1,0 +1,56 @@
+Solution pour faire du développement mobile - Hugo RICHARD
+
+Applications cross plateform
+
+Beaucoup de choix s'offre à nous,
+
+Ionic -> angular js + typescript,
+React native -> react js, 
+Native script -> typescript, 
+Flutter -> Dart,
+Titanium, 
+Cordova, 
+Electron -> nodjs
+
+Afin de développer une application crossplateforme nous allons utiliser un outil qui va nous permettre de faire une progressive web app
+Nous n'allons pas utiliser de transpileur (qui transforme le code en swift ou kotlin) car nous n'avons pas besoin de mettre notre app sur un store.
+De plus une PWA serait plus légère, et moins coûteuse.
+
+Ionic et React native sont deux outils qui peuvent nous permettre de faire une pwa.
+
+Choix : Electron js
+Répond aux attentes du clients car permet de faire des applications multiplateformes.
+Electron utilise Node.js pour le backend et chromium pour le front.
+Populaire car il a permis de développer Twitch, Slack ou encore Visual studio code.
+J'ai vu beaucoup de personne se plaindre du poids d'une application faites avec Electron.
+Il y a une doc et un guide pour créer sa première app comme pour les deux prochains framework mais, une moins grande communauté. Ce qui équivaut donc à moins de ressources potentielles.
+
+
+Choix : Ionic
+Répond aux attentes du clients.
+Ionic utilise le framework Angular JS, Vue.js et le langage TypeScript.
+Permet de créer une progressive web app rapidement.
+Très populaire avec une communauté, des mises à jours sont réalisées régulièrement.
+Interface lente selon le téléphone, les webviews sont inégales -> android a un moteur webview assez daté obligeant d'installer le moteur de chrome sur l'application, ce qui l'alourdi.
+Beaucoup de bugs sont présents sur Ionic.
+Apprentissage rapide grâce à la caummunauté.
+
+Choix : React
+
+Répond aux attentes du client.
+Ionic utilise le framework Angular JS et le langage TypeScript.
+Très populaire car classé comme le language ou technologie la plus aimé dans le sondage de développeur stackoverflow 2019.
+Performance : React native est plus performant que native script, React fait appel à différentes techniques intelligentes pour minimiser le nombre d’opérations coûteuses.
+Une grosse communauté de développeur entretienne react, des mises à jours constantes, avec doc, tuto, vidéo etc...
+Aprentissage plutot rapide grâce à cette communauté.
+Des tutos sont disponibles sur openclassroom, code cademy, beaucoup sont présents sur youtube.
+
+Mon choix se porte plus sur React Native car selon certains développeur, les mises à jours de Ionic peuvent casser du code. React est plus stable et performant.
+
+J'ai quelques notions en JS, ces trois framework utilisent ce langagel'application peut etre faite entre 1 à 3 jours.
+
+étapes : Installer Node.js, installer React, mettre en lien l'API OpenWeather, jouer avec les vues en combinant React et l'API. 
+
+
+API météo : OpenWeather est une API open source, ses informations sont fiables.
+
